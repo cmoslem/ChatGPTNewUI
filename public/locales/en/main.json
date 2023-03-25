@@ -32,5 +32,10 @@
   "postOnShareGPT": {
     "title": "Post on ShareGPT",
     "warning": "Please be aware that by posting your conversation on ShareGPT, it will become publicly accessible and viewable to anyone. Once posted, the conversation cannot be hidden or deleted, and may be archived or shared by others. We advise you to consider carefully and avoid sharing sensitive or private information on this platform."
+  },
+  "migration": {
+    "title": "From Free to Better: The Evolution of ChatGPT",
+    "description": "We're excited to announce that Free ChatGPT has undergone an upgrade and is now Better ChatGPT! You can experience the improved platform by visiting our new website at <0>https://bettergpt.chat</0>. To ensure a seamless transition, don't forget to export your chats from Free ChatGPT and import them into Better ChatGPT. We look forward to providing you with an even better chat experience!",
+    "button": "Open Better ChatGPT"
   }
 }

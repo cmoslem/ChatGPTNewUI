@@ -6,16 +6,19 @@ export interface AuthSlice {
   apiFree: boolean;
   apiEndpoint: string;
   firstVisit: boolean;
+  showMigration: boolean;
   setApiKey: (apiKey: string) => void;
   setApiFree: (apiFree: boolean) => void;
   setApiEndpoint: (apiEndpoint: string) => void;
   setFirstVisit: (firstVisit: boolean) => void;
+  setShowMigration: (showMigration: boolean) => void;
 }
 
 export const createAuthSlice: StoreSlice<AuthSlice> = (set, get) => ({
   apiFree: false,
   apiEndpoint: defaultAPIEndpoint,
   firstVisit: true,
+  showMigration: true,
   setApiKey: (apiKey: string) => {
     set((prev: AuthSlice) => ({
       ...prev,
@@ -38,6 +41,12 @@ export const createAuthSlice: StoreSlice<AuthSlice> = (set, get) => ({
     set((prev: AuthSlice) => ({
       ...prev,
       firstVisit: firstVisit,
+    }));
+  },
+  setShowMigration: (showMigration: boolean) => {
+    set((prev: AuthSlice) => ({
+      ...prev,
+      showMigration: showMigration,
     }));
   },
 });

@@ -3,6 +3,7 @@ import useStore from '@store/store';
 
 import Chat from '@components/Chat';
 import Menu from '@components/Menu';
+import MigrationMenu from '@components/MigrationMenu';
 
 import useInitialiseNewChat from '@hooks/useInitialiseNewChat';
 import { ChatInterface } from '@type/chat';
@@ -70,6 +71,7 @@ function App() {
       <Menu />
       <Chat />
       <ApiPopup />
+      <MigrationMenu />
     </div>
   );
 }
