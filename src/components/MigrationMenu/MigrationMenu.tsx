@@ -11,13 +11,7 @@ const openBetterChatGPT = () => {
 const MigrationMenu = () => {
   const { t } = useTranslation();
 
-  const showMigration = useStore((state) => state.showMigration);
-  const setShowMigration = useStore((state) => state.setShowMigration);
-  const [isModalOpen, setIsModalOpen] = useState<boolean>(showMigration);
-
-  useEffect(() => {
-    setShowMigration(false);
-  }, []);
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(true);
 
   return isModalOpen ? (
     <PopupModal
