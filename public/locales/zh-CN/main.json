@@ -34,8 +34,10 @@
     "warning": "请注意，把您的对话发布到 ShareGPT 后，任何人都可以公开访问和查看。发布后，对话不能被隐藏或删除，且可能被其他人存档或分享。建议您慎重考虑，在这个平台上避免分享敏感或私密信息。"
   },
   "migration": {
-    "title": "From Free to Better: The Evolution of ChatGPT",
-    "description": "We're excited to announce that Free ChatGPT has undergone an upgrade and is now Better ChatGPT! You can experience the improved platform by visiting our new website at <0>https://bettergpt.chat</0>. To ensure a seamless transition, don't forget to export your chats from Free ChatGPT and import them into Better ChatGPT. We look forward to providing you with an even better chat experience!",
-    "button": "Open Better ChatGPT"
+    "title": "从免费到更好：ChatGPT 的蜕变",
+    "description": "我们很高兴地宣布，Free ChatGPT 已经升级为 Better ChatGPT！",
+    "description2": "您可以通过访问 Better ChatGPT 网站 <0>https://bettergpt.chat/</0> 免费使用 ChatGPT。以下是操作步骤：转到 API 设置并选择“使用自定义 API 端点”。然后，输入 https://free.churchless.tech/v1/chat/completions 作为端点，并将 API 密钥字段留空。完成后，您可以免费无限制地使用 ChatGPT！",
+    "description3": "请记住加入我们的 Discord 群组 <0>https://discord.gg/g3Qnwy4V6A</0> 以获取未来更新！",
+    "button": "打开 Better ChatGPT"
   }
 }

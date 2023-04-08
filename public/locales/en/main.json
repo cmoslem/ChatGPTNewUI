@@ -35,7 +35,9 @@
   },
   "migration": {
     "title": "From Free to Better: The Evolution of ChatGPT",
-    "description": "We're excited to announce that Free ChatGPT has undergone an upgrade and is now Better ChatGPT! You can experience the improved platform by visiting our new website at <0>https://bettergpt.chat</0>. To ensure a seamless transition, don't forget to export your chats from Free ChatGPT and import them into Better ChatGPT. We look forward to providing you with an even better chat experience!",
+    "description": "We're excited to announce that Free ChatGPT has undergone an upgrade and is now Better ChatGPT!",
+    "description2": "ChatGPT can be used for FREE by accessing the Better ChatGPT website at <0>https://bettergpt.chat/</0>. Here are the steps: Go to the API settings and select \"Use custom API endpoint.\" Then, input https://free.churchless.tech/v1/chat/completions as the endpoint and leave the API key field blank. After that, you can enjoy using ChatGPT without any cost or limitations!",
+    "description3": "Remember to join our discord group <0>https://discord.gg/g3Qnwy4V6A</0> for future updates!",
     "button": "Open Better ChatGPT"
   }
 }

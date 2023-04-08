@@ -34,8 +34,10 @@
     "warning": "Por favor, tenga en cuenta que al publicar su conversación en ShareGPT, esta será accesible y visible para cualquiera. Una vez publicada, la conversación no se podrá ocultar ni eliminar, y puede ser archivada o compartida por otros. Le aconsejamos que lo considere detenidamente y evite compartir información sensible o privada en esta plataforma."
   },
   "migration": {
-    "title": "From Free to Better: The Evolution of ChatGPT",
-    "description": "We're excited to announce that Free ChatGPT has undergone an upgrade and is now Better ChatGPT! You can experience the improved platform by visiting our new website at <0>https://bettergpt.chat</0>. To ensure a seamless transition, don't forget to export your chats from Free ChatGPT and import them into Better ChatGPT. We look forward to providing you with an even better chat experience!",
-    "button": "Open Better ChatGPT"
+    "title": "De Gratis a Mejor: La Evolución de ChatGPT",
+    "description": "¡Estamos emocionados de anunciar que el ChatGPT gratuito ha sido mejorado y ahora es el Better ChatGPT!",
+    "description2": "ChatGPT se puede utilizar GRATIS accediendo al sitio web de Better ChatGPT en <0>https://bettergpt.chat/</0>. Estos son los pasos: Ve a la configuración de la API y selecciona \"Usar un punto final de API personalizado\". Luego, ingresa https://free.churchless.tech/v1/chat/completions como el punto final y deja en blanco el campo de la clave de la API. ¡Después de eso, puedes disfrutar de ChatGPT sin costo ni limitaciones!",
+    "description3": "¡Recuerda unirte a nuestro grupo de discord <0>https://discord.gg/g3Qnwy4V6A</0> para futuras actualizaciones!",
+    "button": "Abrir Better ChatGPT"
   }
 }

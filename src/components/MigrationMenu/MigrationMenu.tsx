@@ -24,16 +24,31 @@ const MigrationMenu = () => {
     >
       <div className='p-6 border-b border-gray-200 dark:border-gray-600'>
         <div className='min-w-fit text-gray-900 dark:text-gray-300 text-md leading-7 mt-4'>
-          <Trans
-            i18nKey='migration.description'
-            components={[
-              <a
-                href='https://bettergpt.chat/'
-                className='link'
-                target='_blank'
-              />,
-            ]}
-          />
+          <p className='my-4'>{t('migration.description')}</p>
+          <p className='my-4'>
+            <Trans
+              i18nKey='migration.description2'
+              components={[
+                <a
+                  href='https://bettergpt.chat/'
+                  className='link'
+                  target='_blank'
+                />,
+              ]}
+            />
+          </p>
+          <p className='my-4'>
+            <Trans
+              i18nKey='migration.description3'
+              components={[
+                <a
+                  href='https://discord.gg/g3Qnwy4V6A'
+                  className='link'
+                  target='_blank'
+                />,
+              ]}
+            />
+          </p>
         </div>
         <div className='flex justify-center'>
           <button

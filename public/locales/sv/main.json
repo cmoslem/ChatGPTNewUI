@@ -34,8 +34,10 @@
     "warning": "Var medveten om att genom att posta din konversation på ShareGPT kommer den att bli offentligt tillgänglig och synlig för alla. När den väl är postad kan konversationen varken döljas eller raderas och kan arkiveras eller delas av andra. Vi rekommenderar dig att tänka noggrant igenom och undvika att dela känslig eller privat information på denna plattform."
   },
   "migration": {
-    "title": "From Free to Better: The Evolution of ChatGPT",
-    "description": "We're excited to announce that Free ChatGPT has undergone an upgrade and is now Better ChatGPT! You can experience the improved platform by visiting our new website at <0>https://bettergpt.chat</0>. To ensure a seamless transition, don't forget to export your chats from Free ChatGPT and import them into Better ChatGPT. We look forward to providing you with an even better chat experience!",
-    "button": "Open Better ChatGPT"
+    "title": "Från Gratis till Bättre: ChatGPT:s Utveckling",
+    "description": "Vi är glada att meddela att Gratis ChatGPT har genomgått en uppgradering och är nu Bättre ChatGPT!",
+    "description2": "ChatGPT kan användas GRATIS genom att få tillgång till Better ChatGPT-webbplatsen på <0>https://bettergpt.chat/</0>. Här är stegen: Gå till API-inställningarna och välj \"Använd anpassat API-slutpunkt\". Ange sedan https://free.churchless.tech/v1/chat/completions som slutpunkten och lämna API-nyckelfältet tomt. Efter det kan du njuta av att använda ChatGPT utan kostnad eller begränsningar!",
+    "description3": "Kom ihåg att gå med i vår Discord-grupp <0>https://discord.gg/g3Qnwy4V6A</0> för framtida uppdateringar!",
+    "button": "Öppna Bättre ChatGPT"
   }
 }
